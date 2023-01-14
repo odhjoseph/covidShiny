@@ -163,18 +163,18 @@ ui <- navbarPage(
     )
   ),
   #Tab 5
-  tabPanel(
-    "Cases greater than >",
-    textInput(
-      "numberChoice5",
-      "Enter the amount of Covid Cases to see high risk counties",
-      "1000"
-    ),
-    mainPanel(
-      plotOutput("populationPlot", height = 600),
-      p("Note that TRUE and FALSE change frequently on the bottom")
-    )
-  ),
+  # tabPanel(
+  #   "Cases greater than >",
+  #   textInput(
+  #     "numberChoice5",
+  #     "Enter the amount of Covid Cases to see high risk counties",
+  #     "1000"
+  #   ),
+  #   mainPanel(
+  #     plotOutput("populationPlot", height = 600),
+  #     p("Note that TRUE and FALSE change frequently on the bottom")
+  #   )
+  # ),
   #Tab 6
   tabPanel(
     "Credit",
